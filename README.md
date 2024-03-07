@@ -5,7 +5,7 @@
 Berikut adalah langkah-langkah detail untuk setiap bagian dari tutorial konfigurasi switch menggunakan Cisco Packet Tracer:  
 
 `INSTRUKSI`     
-Part 1: Verify the Default Switch Configuration  
+**Part 1: Verify the Default Switch Configuration**    
 `Step 1: Enter privileged EXEC mode.`  
 1. Buka aplikasi Cisco Packet Tracer dan buka proyek dengan switch yang ingin Anda konfigurasi.  
     Klik dua kali pada switch untuk membuka jendela konfigurasi.  
@@ -31,7 +31,7 @@ Enter the show running-config command.
 Switch# show running-config
 ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/755e52f0-33f5-48e1-9d16-ef58bfdc52bb)  
 
-Part 2: Create a Basic Switch Configuration  
+**Part 2: Create a Basic Switch Configuration**  
 `Step 1: Assign a name to a switch.`  
 Untuk mengonfigurasi parameter pada sakelar, Anda mungkin diminta untuk berpindah di antara berbagai mode konfigurasi.  
 Perhatikan bagaimana perintah berubah saat Anda menavigasi saklar.  
@@ -63,7 +63,7 @@ Setel kata sandi pengaktifan ke azza123. Kata sandi ini melindungi akses ke mode
 `Step 8: Encrypt the enable and console passwords.`  
 ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/a2e97a30-b28e-4a70-a9e2-cd82172ce8de)  
 
-Part 3: Configure a MOTD Banner  
+**Part 3: Configure a MOTD Banner**  
 `Step 1: Configure a message of the day (MOTD) banner.`  
 
 Lampirkan teks spanduk dalam tanda kutip atau   
@@ -74,7 +74,7 @@ Kapan spanduk ini akan ditampilkan?
 
 Mengapa setiap switch harus memiliki banner MOTD?  
 
-Part 4: Save and Verify Configuration Files to NVRAM  
+**Part 4: Save and Verify Configuration Files to NVRAM**  
 Step 1: Verify that the configuration is accurate using the show run command.  
 Simpan file konfigurasi.   
 Anda telah menyelesaikan konfigurasi dasar switch.  
@@ -83,7 +83,7 @@ untuk memastikan bahwa perubahan yang dilakukan tidak hilang jika sistem di-boot
 
 ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/d42e2c9f-ef00-4e24-9acb-e9480f3864f5)  
 
-Part 5: Configure S2  
+**Part 5: Configure S2**  
 Anda telah menyelesaikan konfigurasi pada S1.  
 Anda sekarang akan mengkonfigurasi S2. Jika Anda tidak dapat mengingat perintahnya, lihat Bagian 1 hingga 4 untuk bantuan.  
 Konfigurasikan S2 dengan parameter berikut:

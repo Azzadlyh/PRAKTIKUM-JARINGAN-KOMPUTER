@@ -5,7 +5,7 @@
 Sebelum kita melakukan prakitkum, siapkan alat-alat yang dibutuhkan    
 1. Conector RJ45
 2. Kabel LAN
-3. Tang Kripping
+3. Tang Crimping   
 4. Network Cabel Tester  
    ![image](https://github.com/Azzadlyh/Konfigurasi-Kabel-LAN/assets/126213404/cc42c108-7cd0-4e2c-9f78-f1f0de957ca9)  
 - Potong ujung kabel menggunakan tang craping,

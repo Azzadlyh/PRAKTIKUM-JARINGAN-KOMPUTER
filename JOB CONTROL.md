@@ -1,8 +1,8 @@
-# JOB CONTROL  
+# JOB CONTROL 
 
 ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/090c0dd0-e26a-4d76-8c8c-f80891dccc6f)  
 
-# 1. Eksekusi seluruh profile yang ada :   
+1. Eksekusi seluruh profile yang ada :   
    a. Edit file profile /etc/profile dan tampilkan pesan sebagai berikut :   
       `echo “Profile dari /etc/profile”`  
       ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/bf4a71cf-777b-4031-864e-6e238e504ff5)  
@@ -41,7 +41,7 @@
       Jelaskan perbedaan kedua utilitas tersebut.  
       Perbedaan  kedua  utilitas  tersebut  yaitu menampilkan  isi  dari file-file  yang  dibuat  pada    direktori    yang  berbeda.  Untuk  direktori  yang  memiliki  banyak  file,  hanya  akan ditampilkan satu buah filenya saja.
 
-# 2. Prompt String (PS)  
+2. Prompt String (PS)  
    a. Edit file  .bash_profile, ganti prompt PS1 dengan ‘>’.  
     Instruksi export diperlukan dengan parameter nama variable tersebut, agar perubahan variable PS1 dikenal oleh semua shell
    `$ PS1=“\! > “  
@@ -53,7 +53,7 @@
    ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/49b2a4ae-9b37-4607-9baa-16c33224d434)  
    syntax diatas berfungsi untuk menampilkan informasi sesuai dengan option perintah seperti d adalah data (tanggal), t adalah time (waktu), u adalah user (pengguna).
 
-# 3. Logout  
+3. Logout  
    Edit file .bash_logout, tampilkan pesan dan tahan selama 5 detik, sebelum eksekusi logout  
    `Echo “Terima kasih atas sesi yang diberikan”
    Sleep 5   clear`
@@ -64,7 +64,7 @@
    Tampilan layer setelah 5 detik  
    ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/9f838c34-7352-4730-99ae-c8eae0dcc6c7)  
 
-# 4. Bash script
+4. Bash script
    a. Buat 3 buah script p1.sh, p2.sh, p3.sh dengan isi masing-masing :
    p1.sh
    `#! /bin/bash
@@ -105,7 +105,7 @@
       `$  ( ./p1.sh ; ./p3.sh ) &`  
       ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/6f61e1a4-d86f-41c8-8cc1-301f935b817b)
 
-   # 5. Jobs
+5. Jobs
       a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh,  setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
       ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/8f0f67c5-f1c1-4034-9b9a-35cf61de5ced)  
 
@@ -121,7 +121,7 @@
       `$ kill [Nomor PID]`  
       ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/a887ca7c-2a24-4bda-90d8-9c43cff870cf)
 
-   # 6. History   
+6. History   
       a. Ganti nilai HISTSIZE dari 1000 menjadi 20
       ![image](https://github.com/Azzadlyh/PRAKTIKUM-JARINGAN-KOMPUTER/assets/126213404/ffea3f4d-7d8d-49cb-9264-e8d33ff7e8fe)  
 
